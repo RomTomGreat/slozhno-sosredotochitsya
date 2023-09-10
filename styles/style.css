@@ -2,4 +2,221 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.header {
+  max-width: 1024px;
+  height: 768px;
+  padding: 20px;
+}
+
+.decorated-zone {
+
+}
+
+.header__lamp-container {
+
+}
+
+.header__lamp-text {
+
+}
+
+.header__lamp-image {
+
+}
+
+.header__border {
+
+}
+
+.header__theme-menu {
+
+}
+
+.header__theme-menu-list {
+
+}
+
+.header__theme-menu-item {
+
+}
+
+.header__theme-menu-button {
+
+}
+
+.header__theme-menu-button_type_light {
+
+}
+
+.header__theme-menu-button_active {
+
+}
+
+.header__theme-menu-button_type_auto {
+
+}
+
+.header__theme-menu-button_type_dark {
+
+}
+
+.header__title {
+  color: var(--accent-main-title-color);
+  text-shadow: 4px 4px 0px #FF0070;
+  font-family: var(--accent-font-family), sans-serif;
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82.5%; /* 129.525px */
+}
+
+.main-title {
+  color: var(--accent-color);
+  font-family: var(--accent-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
+}
+
+.title {
+  background-color: var(--accent-color);
+  color: var(--accent-title-color);
+  font-family: var(--accent-font-family), sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
+}
+
+.text {
+  color: var(--accent-text-color);
+  font-family: var(--accent-font-family), sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.4px; /* 130% */
+}
+
+.why {
+
+}
+
+.why__container {
+
+}
+
+.what {
+
+}
+
+.what__block {
+
+}
+
+.what__container {
+
+}
+
+.how {
+
+}
+
+.how__block {
+
+}
+
+.how__container {
+
+}
+
+.how__title {
+  background-color: var(--accent-color);
+  color: var(--accent-title-color);
+  font-family: var(--accent-font-family), sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.4px; /* 130% */
+}
+
+.link-effects {
+  color: var(--accent-text-color);
+  font-family: var(--accent-font-family), sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-shadow: 2px 2px 0px #FF0070;
+}
+
+.link-effects:hover {
+  border-bottom: 1px solid var(--accent-text-color);
+}
+
+.link-effects:focus-visible {
+  border: 1px solid var(--accent-text-color);
+}
+
+.gallery {
+  display: grid;
+  gap: 20px;
+  max-width: 1024px;
+  padding: 0 20px;
+}
+
+.gallery__image-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sunset {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.ice-cream {
+  grid-row: span 2;
+}
+
+.tape {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.street {
+  grid-column-start: -3;
+  grid-column-end: -1;
+}
+
+.footer {
+  
+}
+
+.footer__title {
+  color: var(--accent-main-title-color);
+  text-shadow: 2px 2px 0px #FF0070;
+  font-family: var(--accent-font-family), sans-serif;
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82.5%; /* 129.525px */
+}
+
+.footer__border {
+
 }
