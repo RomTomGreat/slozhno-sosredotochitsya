@@ -10,7 +10,8 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image: url(../images/cover-image-light.png);
-  --accent-main-title-color: #FFC2E6;
+  --accent-headfoot-title-color: #FFC2E6;
+  --accent-main-title-color: #353430;
   --accent-color: #FF8DCB;
   --accent-title-color: #353430;
   --accent-text-color: #353430;
@@ -19,7 +20,8 @@
 @media (prefers-color-scheme: light) {
   :root {
         /* Дублируем переменные светлой темы */
-        --accent-main-title-color: #FFC2E6;
+        --accent-headfoot-title-color: #FFC2E6;
+        --accent-main-title-color: #353430;
         --accent-color: #FF8DCB;
         --accent-title-color: #353430;
         --accent-text-color: #353430;

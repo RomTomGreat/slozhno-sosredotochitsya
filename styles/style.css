@@ -10,8 +10,8 @@
 }
 
 .header {
-  max-width: 1024px;
-  height: 768px;
+  display: grid;
+  height: 100vh;
   padding: 20px;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .header__title {
-  color: var(--accent-main-title-color);
+  color: var(--accent-headfoot-title-color);
   text-shadow: 4px 4px 0px #FF0070;
   font-family: var(--accent-font-family), sans-serif;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -78,12 +78,13 @@
 }
 
 .main-title {
-  color: var(--accent-color);
+  color: var(--accent-main-title-color);
   font-family: var(--accent-font-family);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 23.4px; /* 130% */
+  width: 315px;
 }
 
 .title {
@@ -105,36 +106,61 @@
   line-height: 23.4px; /* 130% */
 }
 
-.why {
+.main {
+  display: grid;
+  gap: 80px;
+}
 
+.why {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 0 20px;
+  gap: 10px;
+}
+
+.why__block {
+  display: grid;
+  gap: 20px;
 }
 
 .why__container {
-
+  display: grid;
+  gap: 10px;
 }
 
 .what {
-
+  display: grid;
+  gap: 20px;
+  padding: 0 20px;
 }
 
 .what__block {
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  gap: 20px;
 }
 
 .what__container {
-
+  display: grid;
+  gap: 10px;
 }
 
 .how {
-
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 12px;
+  padding: 0 20px;
 }
 
 .how__block {
-
+  display: grid;
+  gap: 20px;
 }
 
 .how__container {
-
+  display: grid;
+  gap: 10px;
 }
 
 .how__title {
@@ -154,7 +180,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-shadow: 2px 2px 0px #FF0070;
+  text-shadow: 2px 2px 0px var(--accent-color);
 }
 
 .link-effects:hover {
@@ -168,7 +194,6 @@
 .gallery {
   display: grid;
   gap: 20px;
-  max-width: 1024px;
   padding: 0 20px;
 }
 
@@ -204,11 +229,16 @@
 }
 
 .footer {
-  
+  display: grid;
+  height: 100vh;
+  padding: 20px;
+  justify-content: center;
+  align-items: end;
+  gap: 10px;
 }
 
 .footer__title {
-  color: var(--accent-main-title-color);
+  color: var(--accent-headfoot-title-color);
   text-shadow: 2px 2px 0px #FF0070;
   font-family: var(--accent-font-family), sans-serif;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);

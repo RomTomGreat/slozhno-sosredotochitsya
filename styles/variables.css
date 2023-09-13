@@ -3,8 +3,9 @@
   и их переопределение под различные устройства
 */
 :root {
-  --accent-main-title-color: #DB00FF;
+  --accent-headfoot-title-color: #DB00FF;
   --accent-color: #ff0070;
+  --accent-main-title-color: #FF0070;
   --accent-title-color: #000028;
   --accent-text-color: #F1B2CE;
   --accent-font-family: "IBM Plex Mono";
