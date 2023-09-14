@@ -19,33 +19,32 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div class="header__lamp-container">
-        <p class="header__lamp-text">REC</p>
-        <div class="header__lamp-image"></div>
-      </div>
-      <div class="header__border"></div>
+      <p class="header__lamp" aria-hidden="true">rec</p>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_light"
+              type="button"
             >
-              День
+              день
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
               disabled
+              type="button"
             >
-              Авто
+              авто
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_dark"
+              type="button"
             >
-              Неон
+              неон
             </button>
           </li>
         </ul>
@@ -59,7 +58,7 @@
     <main class="main">
       <section class="why">
         <h3 class="main-title">Почему сосредоточиться так сложно</h3>
-        <div class="why__block">
+        <article class="why__block">
           <div class="why__container">
             <h4 class="title">Многозадачность</h4>
             <p class="text">
@@ -78,11 +77,12 @@
               Например, смотрим лайки в соцсетях. В это время и выделяется дофамин — и мы чувствуем удовольствие.
               Получается замкнутый круг: чем больше отвлекаешься, тем больше удовольствия получаешь.
             </p>
-        </div>
+          </div>
+        </article>  
       </section>
       <section class="what">
         <h3 class="main-title">Что снижает концентрацию внимания?</h3>
-        <div class="what__block">
+        <article class="what__block">
           <div class="what__container">
             <h4 class="title">Многозадачность</h4>
             <p class="text">
@@ -109,11 +109,11 @@
               Вот и получается, что чем больше времени мы проводим в гаджетах, тем больше времени затем нужно, чтобы вернуться к работе.
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="how">
         <h3 class="main-title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h3>
-        <div class="how__block">
+        <article class="how__block">
           <h4 class="title">5 простых (на самом деле не очень) советов</h4>
           <div class="how__container">
             <h5 class="how__title">Представьте небо и облака</h5>
@@ -156,7 +156,7 @@
               А вот интересная книга способна затянуть и на несколько часов и круто тренирует направленное внимание.
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="gallery">
         <h4 class="title">А можно в картинках?</h4>
@@ -169,9 +169,8 @@
         </picture>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer decorated-zone">
       <h2 class="footer__title">focus</h2>
-      <div class="footer__border"></div>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>

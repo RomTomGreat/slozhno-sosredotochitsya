@@ -27,3 +27,7 @@
         --accent-text-color: #353430;
     }
 }
+
+.theme_light .header__lamp {
+  visibility: hidden;
+}
