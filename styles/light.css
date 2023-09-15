@@ -15,19 +15,26 @@
   --accent-color: #FF8DCB;
   --accent-title-color: #353430;
   --accent-text-color: #353430;
+  --visibility-condition: hidden;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
         /* Дублируем переменные светлой темы */
+        --background-image: url(../images/cover-image-light.png);
         --accent-headfoot-title-color: #FFC2E6;
         --accent-main-title-color: #353430;
         --accent-color: #FF8DCB;
         --accent-title-color: #353430;
         --accent-text-color: #353430;
+        --visibility-condition: hidden;
     }
 }
 
-.theme_light .header__lamp {
-  visibility: hidden;
+:not(.theme_light) .header__lamp {
+    visibility: var(--visibility-condition);
+}
+
+:not(.theme_light) .page {
+  background-image: var(--background-image);
 }
