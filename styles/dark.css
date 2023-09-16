@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image: url(../images/cover-image-dark.png);
+  --background: #000028;
   --accent-headfoot-title-color: #DB00FF;
   --accent-color: #ff0070;
   --accent-main-title-color: #FF0070;

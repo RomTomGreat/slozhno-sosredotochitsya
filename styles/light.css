@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image: url(../images/cover-image-light.png);
+  --background: #FFF1F7;
   --accent-headfoot-title-color: #FFC2E6;
   --accent-main-title-color: #353430;
   --accent-color: #FF8DCB;
@@ -22,6 +23,7 @@
   :root {
         /* Дублируем переменные светлой темы */
         --background-image: url(../images/cover-image-light.png);
+        --background: #FFF1F7;
         --accent-headfoot-title-color: #FFC2E6;
         --accent-main-title-color: #353430;
         --accent-color: #FF8DCB;
