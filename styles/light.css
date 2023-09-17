@@ -13,6 +13,7 @@
   --background: #FFF1F7;
   --accent-headfoot-title-color: #FFC2E6;
   --accent-main-title-color: #353430;
+  --accent-outline-color: rgba(50, 49, 45, 0.40);
   --accent-color: #FF8DCB;
   --accent-title-color: #353430;
   --accent-text-color: #353430;
@@ -26,6 +27,7 @@
         --background: #FFF1F7;
         --accent-headfoot-title-color: #FFC2E6;
         --accent-main-title-color: #353430;
+        --accent-outline-color: rgba(50, 49, 45, 0.40);
         --accent-color: #FF8DCB;
         --accent-title-color: #353430;
         --accent-text-color: #353430;
